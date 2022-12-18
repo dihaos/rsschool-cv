@@ -1,4 +1,22 @@
-#name {
-  color: brown;
-  background-color: aqua;
+body {
+  margin: 0;
+}
+
+.header,
+.nav {
+  text-align: center;
+}
+
+.item {
+  display: inline;
+  margin-right: 10px;
+}
+
+.photo {
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
 }
